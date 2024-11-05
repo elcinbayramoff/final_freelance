@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+db.sqlite3
+
+# If using PostgreSQL, MySQL, etc., add relevant database files here
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Django migrations
+**/migrations/*
+
+# Media and static files
+media/
+staticfiles/
+
+# Local development files
+*.env
+.env
+*.local
+.DS_Store
+*.local_settings.py
+
+# Jupyter notebooks
+*.ipynb
+
+# VS Code settings
+.vscode/
+
+# pyenv
+.python-version
+
+# macOS
+.DS_Store
+
+# pipenv
+Pipfile.lock
+Pipfile
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Testing output
+.tox/
+.nox/
+.cache/
+pytest_cache/
+test-results/
+
+# mypy
+.mypy_cache/
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Other IDE-specific files
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.sublime-settings
+
+# Local Django configuration and secret files
+config/settings/local.py
+config/settings/secrets.json
